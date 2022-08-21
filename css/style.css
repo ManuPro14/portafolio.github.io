@@ -1,0 +1,92 @@
+body{
+    background-color: #7E0A0A;
+    color: #fff;
+}
+header{
+    width: 100%;
+    height: 5rem;
+}
+
+/*barra de menu*/
+
+.menu{
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+.logo{
+    color: #fff;
+    font-size: 2rem;
+    padding: 0 80px;
+    font-weight: bold;
+}
+.menu_items{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 30px;
+}
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+.menu_items li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: block;
+    color: #fff;
+}
+.menu_items li:hover {
+    background-color: rgba(0, 0, 0, .3);
+    transition: .4s;
+}
+.btn_menu{
+    margin-right: 30px;
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+ul.show{
+    top: 65px;
+}
+
+/*sobre mi */
+
+.sobre_mi{
+    display: grid;
+    grid-template-areas: 'image' 'title' 'text';
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+.imagen_foto{
+    grid-area: image;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+.sobre_mi h1{
+    grid-area: title;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 10rem;
+    margin-bottom: 0;
+    font-size: 5rem;
+}
+.sobre_mi p{
+    grid-area: text;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 1.3rem;
+    margin-top: -5rem;
+}
