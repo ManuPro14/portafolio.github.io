@@ -109,8 +109,13 @@ ul.hide{
     text-align: center;
     font-size: 3rem;
 }
-.titulo-tarjeta .texto-tarjeta{margin: 1rem;} 
-img{width: 100%; margin: 1rem 0;}
+.titulo-tarjeta .texto-tarjeta{
+    margin: 1rem;
+} 
+img{
+    width: 100%; 
+    margin: 1rem 0;
+}
 .tarjeta{
     max-width: 35vw;
     min-height: 35vw;
