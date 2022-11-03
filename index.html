@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Niramit:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/738b601813.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c1eae85dfa.js"></script>
     <script src="./app.js"></script>
     
@@ -21,9 +22,10 @@
     <nav class="menu">
         <label href="#" class="logo">Manuel Barrios</label>
         <ul class="menu_items">
-            <li><a href="#">Sobre mi</a></li>
-            <li><a href="#">Proyectos</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li class="section"><a href="#sobre-mi">Sobre mi</a></li>
+            <li class="section"><a href="#proyectos">Proyectos</a></li>
+            <li class="section"><a href="#skills">Skills</a></li>
+            <li class="section"><a href="#contacto">Contacto</a></li>
         </ul>
         </div>
         <span class="btn_menu">
@@ -34,14 +36,14 @@
     <main>
 
 
-        <section class="sobre_mi">
+        <section id="sobre-mi" class="sobre_mi">
             <img src="imagenes/foto.jpg" class="imagen_foto">
             <h1 class="sobre_mititle">Sobre Mi.</h1>
-            <p>Soy un colombiano apasionado por lo que hace, nacido en Ibagué, Tolíma. Me gustan los videojuegos, las hamburgesas y estar con mi familia.</p>
+            <p>Soy un desarrollador colombiano apasionado por lo que hace, nacido en Ibagué, Tolíma. Me gustan los videojuegos, las hamburgesas y estar con mi familia.</p>
         </section>
 
 
-        <section class="proyectos">
+        <section id="proyectos" class="proyectos">
 
             <h1 class="titulo_proyectos">Proyectos.</h1>
 
@@ -66,11 +68,11 @@
 
         <h1 class="titulo_skills">Skills</h1>
 
-        <section class="skills">
+        <section id="skills" class="skills">
     
 
             <div class="skill skill_html">
-                <span>90%</span><span>HTML</span>
+                <span>70%</span><span>HTML</span>
             </div>
 
             <div class="skill skill_css">
@@ -97,9 +99,23 @@
         </section>
 
 
-        <section class="contacto">
+        <section id="contacto" class="contacto">
             <h1 class="titulo_contacto">Contacto.</h1>
             <p>Escríbeme en mis redes sociales y te contestaré al momento</p>
+            <div class="redes-container">
+                <ul>
+                    <li> <a href="https://www.linkedin.com/in/manuel-b-76870287/" class="linkedin"> <i class="fab fa-linkedin-in">
+                        </i></a>
+                    </li>
+                    <li> <a href="https://api.whatsapp.com/send?phone=573002367432" class="whatsapp"> <i class="fab fa-whatsapp">
+                        </i></a>
+                    </li>
+                    <li> <a href="https://github.com/ManuPro14" class="github"> <i class="fab fa-github">
+                        </i></a>
+                    </li>
+                </ul>
+            </div>
+            
         </section>
 
         

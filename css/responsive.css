@@ -8,11 +8,11 @@
     .menu_items{
         position: fixed;
         width: 100vw;
-        height: calc(50% - 65px);
+        height: calc(100% - 170px);
         background: #414141;
         top: -100vh;
         text-align: center;
-        transition: all .4s;
+        transition: all .5s;
         flex-direction: column;
     }
     .menu_items li{
@@ -61,7 +61,7 @@
         display: grid;
         justify-content: center;
         padding: 1rem;
-        margin-left: 3rem;
+        margin-left: 0rem;
     }
 
     
