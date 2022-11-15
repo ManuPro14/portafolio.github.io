@@ -206,7 +206,10 @@ img{
     background-image: conic-gradient(#e2d23e 100%, transparent 0);
     color: #fff;
 }
-
+.skill:nth-child(7){
+    background-image: conic-gradient(#AEB2D5 50%, transparent 0);
+    color: #fff;
+}
 .skill span{
     font-size: 15px;
     z-index: 1;

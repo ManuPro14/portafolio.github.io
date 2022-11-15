@@ -54,6 +54,9 @@
     
     /*skills*/
 
+    .redes-container ul:hover a{
+        filter: none;
+    }
 }
 
 @media screen and (max-width:999px) {
