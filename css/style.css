@@ -203,11 +203,15 @@ img{
 }
 
 .skill:nth-child(6){
-    background-image: conic-gradient(#e2d23e 100%, transparent 0);
+    background-image: conic-gradient(#00758F 50%, transparent 0);
     color: #fff;
 }
 .skill:nth-child(7){
     background-image: conic-gradient(#AEB2D5 30%, transparent 0);
+    color: #fff;
+}
+.skill:nth-child(8){
+    background-image: conic-gradient(#aaacbe 100%, transparent 0);
     color: #fff;
 }
 .skill span{
