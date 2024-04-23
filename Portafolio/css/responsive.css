@@ -1,9 +1,14 @@
 @media screen and (max-width: 819px) {
-    .menu{
-        height: 65px;
+    /*.menu{
+        height: 65px;   
+
     }
     .btn_menu{
         display: inline-flex;
+        margin-right: 30px;
+        font-size: 1.3rem;
+        color: #fff;
+        cursor: pointer;
     }
     .menu_items{
         position: fixed;
@@ -14,24 +19,42 @@
         text-align: center;
         transition: all .5s;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
     }
     .menu_items li{
         margin: 30px 0 0 0;
         line-height: 30px;
+        background: none;
+
     }
     .menu_items li:hover{
         background: none;
+        transition: .4s;
+
     }
     .menu_items li a{
         color: #fff;
         font-weight: bold;
         margin: 2rem;
+        font-size: 1.5rem;
+
     }
     .menu_items li a:hover{
         color: #fff;
+        text-decoration: none;
+    }*/
+    .menu_items{
+        display: none;
     }
+
     .logo{
         text-align: center;
+        padding: 10;
+        justify-content: center;
+        display: flex;
+        
     }
 
     .imagen_foto{
@@ -45,7 +68,7 @@
         grid-area: title;
         grid-column: 2/3;
         grid-row: 2/2;
-        margin-top: 1rem;
+        margin-top: 4.5rem;
     }
     .sobre_mi p{
         grid-row: 3/3;
